@@ -1,24 +1,19 @@
 public class MainClass {
 
-    private int class_number=20;
-    public int getClassNumber() {
-        System.out.println(class_number);
-return class_number;
+    private String class_string = "Hello, world";
+
+    public String getClassString() {
+        System.out.println(class_string);
+        return class_string;
 
     }
-
-
-
-
-
-
 
 
     public static void main(String[] args) {
 
         MainClass app = new MainClass();
 
-        app.getClassNumber();
+        app.getClassString();
 
     }
 }
